@@ -1,0 +1,167 @@
+html
+{
+	line-height:1.6;
+	background-color: #DEEFF5;
+}
+
+header
+{
+	padding-top: 3%;
+}
+
+h1,h2,h3,h4,h5
+{
+	text-align: center;
+	line-height: 1.2;
+	font-family: 'Nunito', sans-serif;
+	color: #222222;
+}
+
+h4
+{
+
+}
+
+br.no-space
+{
+	display: block;
+	margin: 10px 0px;
+	content: " ";
+}
+
+#vertspace
+{
+	margin-left: 5px;
+}
+
+#row
+{
+	float: left;
+}
+
+#row:not(:last-child)
+{
+	margin-right: 25px;
+}
+
+
+#card
+{
+	text-decoration: none;
+	display: block;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 170px;
+	width: 150px;
+	vertical-align: middle;
+	text-align: center;
+}
+	#card.twitter{
+			background-image: url('./img/logo-twitter.svg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			text-decoration: none;
+			display: block;
+			background-size: 150px 150px;
+			vertical-align: middle;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+	}
+	#card.github{
+			background-image: url('./img/logo-github.svg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			text-decoration: none;
+			display: block;
+			background-size: 150px 150px;
+			vertical-align: middle;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+	}
+	#card.linkedin{
+			background-image: url('./img/logo-linkedin.svg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			text-decoration: none;
+			display: block;
+			background-size: 150px 150px;
+			vertical-align: middle;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+	}
+	#card.mail{
+			background-image: url('./img/logo-mail.svg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			text-decoration: none;
+			display: block;
+			background-size: 150px 150px;
+			vertical-align: middle;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+	}
+	#card.interests{
+		background-image: url('./img/logo-interests.svg');
+		background-repeat: no-repeat;
+		background-position: center top;
+		text-decoration: none;
+		display: block;
+		background-size: 150px 150px;
+		vertical-align: middle;
+		text-align: center;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#card.reddit{
+			background-image: url('./img/logo-reddit.svg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			text-decoration: none;
+			display: block;
+			background-size: 150px 150px;
+			vertical-align: middle;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+	}
+
+p.label
+{
+	vertical-align: baseline;
+	margin-top: 150px;
+	font-family: 'Nunito', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#content
+{
+	margin-top: 15%;
+	margin-bottom: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+	height: auto;
+
+}
