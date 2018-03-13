@@ -2,7 +2,7 @@ html
 {
 	line-height:1.6;
 	background-color: #FFFFFF;
-	background-image: url('./img/background.jpg');
+	background-image: url('../img/background.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -13,7 +13,7 @@ h4,h5
 	text-align: center;
 	line-height: 1.2;
 	font-family: 'Nunito', sans-serif;
-	color: #222222;
+	color: #001F52;
 }
 
 h1
@@ -22,8 +22,8 @@ h1
 	font-weight: 400;
 	font-size: 48px;
 	-webkit-margin-after: 0.4em;
-	color: #222222;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: #001F52;
+	font-family: 'Rozha One', serif;
 }
 
 h2
@@ -32,8 +32,8 @@ h2
 	font-weight: 400;
 	font-size: 36px;
 	-webkit-margin-before: 0.4em;
-	color: #222222;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: #001F52;
+	font-family: 'Rozha One', serif;
 }
 
 h3
@@ -42,7 +42,7 @@ h3
 	font-weight: 400;
 	font-size: 24px;
 	color: #222222;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Rozha One', serif;
 }
 br.no-space
 {
@@ -96,7 +96,7 @@ br.no-space
 
 }
 	#twitter.card{
-			background-image: url('./img/logo-twitter.svg');
+			background-image: url('../img/logo-twitter.svg');
 			background-repeat: no-repeat;
 			background-position: center top;
 			text-decoration: none;
@@ -111,7 +111,7 @@ br.no-space
 			margin-bottom: 25%;
 	}
 	#github.card{
-			background-image: url('./img/logo-github.svg');
+			background-image: url('../img/logo-github.svg');
 			background-repeat: no-repeat;
 			background-position: center top;
 			text-decoration: none;
@@ -126,7 +126,7 @@ br.no-space
 			margin-bottom: 25%;
 	}
 	#linkedin.card{
-			background-image: url('./img/logo-linkedin.svg');
+			background-image: url('../img/logo-linkedin.svg');
 			background-repeat: no-repeat;
 			background-position: center top;
 			text-decoration: none;
@@ -141,7 +141,7 @@ br.no-space
 			margin-bottom: 25%;
 	}
 	#mail.card{
-			background-image: url('./img/logo-mail.svg');
+			background-image: url('../img/logo-mail.svg');
 			background-repeat: no-repeat;
 			background-position: center top;
 			text-decoration: none;
@@ -155,7 +155,7 @@ br.no-space
 			padding-bottom: 5px;
 	}
 	#interests.card{
-		background-image: url('./img/logo-interests.svg');
+		background-image: url('../img/logo-interests.svg');
 		background-repeat: no-repeat;
 		background-position: center top;
 		text-decoration: none;
@@ -169,7 +169,7 @@ br.no-space
 		padding-bottom: 5px;
 	}
 	#reddit.card{
-			background-image: url('./img/logo-reddit.svg');
+			background-image: url('../img/logo-reddit.svg');
 			background-repeat: no-repeat;
 			background-position: center top;
 			text-decoration: none;
@@ -188,8 +188,8 @@ p.label
 	font-size: 155%;
 	vertical-align: baseline;
 	margin-top: 150px;
-	font-family: 'Nunito', sans-serif;
-	color: #222222;
+	font-family: 'Rozha One', serif;
+	color: #001F52;
 	font-weight: bolder;
 	text-decoration: none;
 }
@@ -252,6 +252,11 @@ footer
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
+}
+
+hr
+{
+	color: #001F52;
 }
 
 p.source a
