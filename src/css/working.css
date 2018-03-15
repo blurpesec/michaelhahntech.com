@@ -88,17 +88,18 @@ br.no-space
 	padding-right: 1px;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	height: 185px;
+	height: 230px;
 	width: 150px;
 	vertical-align: middle;
 	justify-content: center;
 	margin-bottom: 25%;
 
+
 }
 	#twitter.card{
 			background-image: url('../img/logo-twitter.svg');
 			background-repeat: no-repeat;
-			background-position: center top;
+			background-position: center 7%;
 			text-decoration: none;
 			display: block;
 			background-size: 150px 150px;
@@ -113,7 +114,7 @@ br.no-space
 	#github.card{
 			background-image: url('../img/logo-github.svg');
 			background-repeat: no-repeat;
-			background-position: center top;
+			background-position: center 7%;
 			text-decoration: none;
 			display: block;
 			background-size: 150px 150px;
@@ -128,7 +129,7 @@ br.no-space
 	#linkedin.card{
 			background-image: url('../img/logo-linkedin.svg');
 			background-repeat: no-repeat;
-			background-position: center top;
+			background-position: center 7%;
 			text-decoration: none;
 			display: block;
 			background-size: 150px 150px;
@@ -143,7 +144,7 @@ br.no-space
 	#mail.card{
 			background-image: url('../img/logo-mail.svg');
 			background-repeat: no-repeat;
-			background-position: center top;
+			background-position: center 7%;
 			text-decoration: none;
 			display: block;
 			background-size: 150px 150px;
@@ -157,7 +158,7 @@ br.no-space
 	#interests.card{
 		background-image: url('../img/logo-interests.svg');
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: center 7%;
 		text-decoration: none;
 		display: block;
 		background-size: 150px 150px;
@@ -171,7 +172,7 @@ br.no-space
 	#reddit.card{
 			background-image: url('../img/logo-reddit.svg');
 			background-repeat: no-repeat;
-			background-position: center top;
+			background-position: center 7%;
 			text-decoration: none;
 			display: block;
 			background-size: 150px 150px;
